@@ -162,5 +162,54 @@ padding-top: 20px;
 padding-left: 28px;
 }
 
+@media screen and (min-width:600px) {
+  #menu{
+width: 80%;
+margin: auto;
+  }  
+#recipe{
+width: 80%;
+margin: auto;
+
+}
+}
+
+@media screen and (min-width:1000px) {
+#menu{
+width: 60%;
+margin: auto;
+    }  
+#recipe{
+  width: 60%;
+  margin: auto;
+  }
+}
+ @media screen and (min-width:1500px) {
+    #menu{
+  
+      width: 40%;
+      margin: auto;
+    }  
+  #recipe{
+  width: 40%;
+  margin: auto;
+
+  }
+
+ }
+ 
+ @media screen and (min-width:720px) {
+
+.body-home{
+
+background-image: url('images/background-01-land.png');
+
+}
+  .body-meals{
+
+background-image: url('images/background-02-land.png');
 
 
+  }
+  
+ }
